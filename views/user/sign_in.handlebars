@@ -1,0 +1,29 @@
+<!-- this is the sign_in.handlebars file inside the users folder of the views folder
+views/users/sign_in.handlebars -->
+
+<div class="row center-align">
+	<div class="row center-align">
+		<h3 class="thin">
+		Log in to start playing!
+		</h3>
+	</div>
+    <form class="col s12" action="/user/login" method="POST">
+      <div class="row center-align">
+        <div class="input-field col s12">
+          <input id="em" type="text" class="validate" name="email">
+          <label for="em">E-mail: </label>
+        </div>
+      </div>
+
+      <div class="row center-align">
+        <div class="input-field col s12">
+          <input id="pass" type="password" class="validate" name="password">
+          <label for="pass">Password: </label>
+        </div>
+      </div>
+
+      <button class="btn waves-effect waves-light green lighten-2" type="submit" name="action">Sign In!
+        <i class="material-icons right green lighten-2">send</i>
+      </button>
+    </form>
+</div>

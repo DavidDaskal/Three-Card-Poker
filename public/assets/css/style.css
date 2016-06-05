@@ -1,0 +1,116 @@
+#pageHeader {
+	font-family: Roboto;
+	font-weight: 300 !important;
+	text-align: center;
+	font-stretch: semi-expanded;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.modal-content{
+	color: #000000;
+	line-height: 15px;
+	font-size: 15px;
+}
+.modal{
+	opacity: 0.0;
+}
+.lean-overlay{
+	background: #f5f5f5;
+	opacity: 0.0 !important;
+}
+
+.row{
+	margin-bottom: auto !important;
+}
+
+a:hover{
+	color: #69f0ae;
+}
+
+.validate{
+	color: #69f0ae;
+}
+
+#gameContainer{
+	background-color: #1b5e20;
+	width: 1000px;
+	height: 600px;
+	border: 2px #000000;
+	display: inline-block;
+	webkit-
+}
+#quitButton, #playBetButton, #pairsPlusButton, #foldButton, #showCardsButton, #anteBetButton {
+	width: 250px !important;
+	margin: 5px;
+	background-color: #c8e6c9 !important;
+	border: 2px solid #81c784 !important;
+	color: #000000;
+}
+#betsTable{
+	border-style: groove;
+	background-color: #fafafa;
+
+}
+td, th{
+	padding: 5px 5px !important;
+	line-height: 10.75px;
+	font-size: 16px;
+}
+
+.row, .col {
+	padding: 0.75rem;
+}
+.moneySection{
+	font-size: 14px;
+}
+.modal{
+	max-height: 35%;
+}
+#pMoneyBox{
+	border-style: groove;
+	border-color: #000000;
+	vertical-align: middle;
+}
+#pMoneyText{
+	font-size: 16px;
+	padding-top: 10px;
+}
+#betsDiv{
+	margin-right: 9%;
+}
+.homeButtons{
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+.circle {
+	width: 3rem;
+	height: 3rem;
+}
+
+@media only screen and (max-width: 992px) {
+	#gameContainer{
+		width: 85%;
+		width: calc(100% - 3rem);
+	}
+}
+@media only screen and (max-width: 600px) {
+	#gameContainer{
+		width: 70%;
+		width: calc(100% - 3rem);
+	}
+}
+@media only screen and (max-width: 420px) {
+	#gameContainer{
+		width: 60%;
+		width: calc(100% - 3rem);
+	}
+}
